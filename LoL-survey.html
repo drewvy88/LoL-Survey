@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="LoL-survey.css" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="title">League of Legends Survey</title>
+</head>
+<body>
+    <h1 id="title">League of Legends Survey</h1>
+    <p id="description">Tell us about your experience with League of Legends!</p>
+
+  <form id="survey-form">
+
+    <fieldset class="personal-info">
+      <label id="name-label">Please Enter Your First Name: <input id="name" type="text" placeholder="First Name" required /></label>
+
+      <label for="summoner">Please Enter Your Summoner Name: <input id="summoner" type="text" placeholder="Summoner Name" required /></label>
+
+      <label id="email-label">Please Enter Your Email: <input id="email" type="email" placeholder="E-mail" required /></label>
+
+      <label id="number-label">Please Enter Your Age: <input id="number" type="number" min="12" max="120" /placeholder="optional"></label>
+      </fieldset>
+
+      <fieldset>
+        <legend>What got you into the game?</legend>
+
+          <label class="referral-option"><input type="checkbox" name="referral" value="Friends/family"/> Friends/family</label>
+
+          <label class="referral-option"><input type="checkbox" name="referral" value="friends/family"/> An advertisement</label>
+
+          <label class="referral-option"><input type="checkbox" name="referral" value="livestreamer"/> My favorite live-streamer plays it</label>
+
+          <label class="referral-option"><input type="checkbox" name="referral" value="similar-game"/> Similar to a game I used to play</label>
+
+          <label class="referral-option"><input type="checkbox" name="referral" value="randomly"/> Played it randomly</label>
+        </fieldset>
+
+      <fieldset>
+          <legend>How long have you been playing League of Legends for? (Years) </legend>
+          <label class="time-played"><input type="radio" name="time-played" value="0-1" /> 0-1 </label>
+            <label class="time-played"><input type="radio" name="time-played" value="1-2" /> 1-2</label>
+            <label class="time-played"><input type="radio" name="time-played" value="2-4" /> 2-4</label>
+            <label class="time-played"><input type="radio" name="time-played" value="5-9" /> 5-9</label>
+            <label class="time-played"><input type="radio" name="time-played" value="10+" /> 10+</label>
+          </fieldset>
+
+      <fieldset>
+          <legend>Tell us what role(s) you play!</legend>
+          <label for="summoner-role"><input type="checkbox" id="summoner-role" value="Top" /> Top</label> 
+
+          <label for="summoner-role"><input type="checkbox" id="summoner-role" value="Jungle" /> Jungle</label> 
+
+          <label for="summoner-role"><input type="checkbox" id="summoner-role" value="Mid" /> Mid</label> 
+
+          <label for="summoner-role"><input type="checkbox" id="summoner-role" value="Bottom (ADC)" /> Bottom (ADC)</label> 
+
+          <label for="summoner-role"><input type="checkbox" id="summoner-role" value="Support" /> Support</label>
+
+        <label for="role-explanation">Why did you chose this role?</label> <textarea placeholder="Why did you choose this role and what do you like about it?" id="role-explanation"></textarea> 
+          </fieldset>
+
+      <fieldset>
+        <label>What is your rank?: <select id="dropdown">
+          <option value="0">(select one)</option>
+           <option value="1">Unranked</option>
+           <option value="2">Iron</option>
+           <option value="3">Bronze</option>
+           <option value="4">Silver</option>
+           <option value="5">Gold</option>
+           <option value="6">Platinum</option>
+           <option value="7">Emerald</option>
+           <option value="8">Diamond</option>
+           <option value="9">Master</option>
+           <option value="10">Grandmaster</option>
+           <option value="11">Challenger</option>
+          </select>
+        </fieldset>
+
+        <input id="submit" type="submit">
+    </form>
+    
+</body>
+</html>

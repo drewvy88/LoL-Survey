@@ -1,0 +1,74 @@
+head, body {
+    margin: 0;
+    background-color: rgb(4, 4, 39);
+    color: #f4f3f2;
+    font-size: 16px;
+    font-family: serif, Tahoma;
+  }
+  
+  h1, p {
+    text-align: center;
+    border: 0;
+  }
+  
+  form {
+    width: 80%;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+  
+  fieldset {
+    border: none;
+    border-bottom: 6px double #71513a;
+    padding: 1em 0;
+    margin-top: 10px;
+  }
+  
+  fieldset:last-of-type {
+    margin-top: -15px;
+  }
+  
+  .personal-info {
+    border-top: 6px double #71513a;
+  }
+  
+  #name-label{
+    margin-top: -4px;
+  }
+  
+  #title, #description {
+    color: #71513a;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin: 0.5em;
+  }
+  
+  .time-played {
+    display: inline;
+  }
+  
+  input, select, textarea {
+    margin: 10px 0 0;
+    width: 100%;
+    min-height: 2em;
+    font-family: serif, Tahoma;
+  }
+  
+  input[type="checkbox"], input[type="radio"] {
+    width: 12px;
+    display: inline;
+    vertical-align: middle;
+    margin: 1px 2px 3px;
+  }
+  
+  input[type="submit"] {
+    width: 50%;
+    display: block;
+    margin: 1.5em auto;
+  }
